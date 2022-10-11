@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/antonio-gabola-NRF1IQrwwPs-unsplash.jpg);
+    background-position: center center;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* #000000d0; boja za pozadinu */
+
+h1 {
+    background-color: #000000d0;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    padding: 15px;
+}
+
+.wrapper {
+    background-color: #000000d0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.wrapper > div {
+    width: 25%;
+    padding: 8px;
+    text-align: center;
+    font-size: 5em;
+}
